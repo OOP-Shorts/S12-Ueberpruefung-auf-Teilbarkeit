@@ -1,1 +1,1 @@
-# S12-Ueberpruefung-auf-Teilbarkeit
+# S12-Überprüfung auf Teilbarkeit
