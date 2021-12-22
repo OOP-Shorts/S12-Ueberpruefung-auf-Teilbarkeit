@@ -8,7 +8,24 @@ public class ArrayComparison {
         Ist der Wert bereits durch 2 teilbar, soll keine weitere Prüfung mehr durchgeführt werden.
     */
     public static String intArrayComparisons(int[] values) {
-        return "";
+        if(values == null || values.length == 0) {
+            return "";
+        }
+
+        String appended = "";
+
+        for (int i = 0; i < values.length; i++) {
+            if(values[i] % 2 == 0) {
+                appended += "OOP";
+            } else if(values[i] % 3 == 0) {
+                appended += "Programmieren";
+            } else {
+                appended += "MEDIENINFORMATIK";
+            }
+
+        }
+        
+        return appended;
     }
 
     public static void main(String[] args) {
